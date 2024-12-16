@@ -15,7 +15,7 @@ CREATE TABLE Product (
     quantity INT NOT NULL
 );
 
-CREATE TABLE `Order` (
+CREATE TABLE Orders (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
     date DATE NOT NULL,
     amount DECIMAL(10, 2) NOT NULL,
